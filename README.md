@@ -6,7 +6,7 @@ Pour installer SylvIA, il faut :
 - Avoir pip
 - Utiliser le fichier requirements.txt afin de récupérer les libraires utilisées
 - Avoir une carte graphique Nvidia
-- Avoir installé CUDA version 11
+- Avoir installé CUDA version 11 (https://drive.google.com/drive/folders/1k00kSA_ntfWcO03ozngKrBAtuYyBxGem?usp=sharing mon drive ou contient les fichiers)
 
 Conseil : Faite le dans un environnement virtuel python
 
