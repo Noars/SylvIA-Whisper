@@ -1,0 +1,11 @@
+Exception in thread Thread-2 (listen_activity_detection):
+Traceback (most recent call last):
+  File "C:\Users\arrig\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "C:\Users\arrig\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\arrig\Documents\Python\sylviaFastWhisper\app.py", line 326, in listen_activity_detection
+    self.text_timing.delete(1.0,tk.END)
+  File "C:\Users\arrig\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 3667, in delete
+    self.tk.call(self._w, 'delete', index1, index2)
+RuntimeError: main thread is not in main loop
